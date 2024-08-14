@@ -9,6 +9,47 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* similar text */
+
+
+
+/* navbar section styles start */
+.navbar-container{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    padding: 10px 20px;
+}
+.navbar-container h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navbar-container button{
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: rgb(255, 216, 3);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.nav-content ul{
+    display: flex;
+}
+.nav-content ul li{
+    list-style: none;
+}
+.nav-content li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+/* navbar section styles end */
 
 
 

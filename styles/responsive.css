@@ -1,9 +1,11 @@
 @media screen and (max-width: 576px) {
     .navbar-container,
-    .banner-container
+    .banner-container,
+    .tutorial-card-container
     {
         max-width: 100%;
     }
+    /* navbar section start */
     .navbar-container i{
         display: block;
     }
@@ -15,6 +17,8 @@
     {
         display: none;
     }
+    /* navbar section end */
+    /* banner section start */
     .banner-container{
         flex-direction: column;
     }
@@ -31,16 +35,24 @@
     .btn-mulai{
         margin-bottom: 10px;
     }
+    /* banner section end */
 
+    /* tutorial card section start */
+    .tutorial-card-content{
+        grid-template-columns: 1fr;
+    }
+    /* tutorial card section end */
 
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar-container,
-    .banner-container{
+    .banner-container,
+    .tutorial-card-container{
         max-width: 100%;
     }
+    /* navbar section start */
     .navbar-container h1{
         font-size: 1.2rem;
     }
@@ -50,6 +62,9 @@
     .nav-content li a{
         font-size: 0.8rem;
     }
+    /* navbar section end */
+
+    /* navbar section start */
     .banner-left-content h1{
         font-size: 2rem;
         width: 150%;
@@ -60,6 +75,19 @@
     .btn-mulai{
         margin-bottom: 10px;
     }
+    /* navbar section end */
+
+    /* tutorial card section start */
+    .tutorial-card{
+        height: 27rem;
+    }
+    .tutorial-card h2{
+        font-size: 1.6rem;
+    }
+    .tutorial-card img{
+        width: 100%;
+    }
+    /* tutorial card section end */
 
 }
 

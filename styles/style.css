@@ -15,13 +15,15 @@
 
 /* navbar section styles start */
 .navbar-container{
-    max-width: 90%;
+    max-width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
-    padding: 10px 20px;
+    padding: 10px 30px;
+}
+.navbar-container i{
+    display: none;
 }
 .navbar-container h1{
     font-size: 2rem;
@@ -50,6 +52,7 @@
     margin-right: 30px;
 }
 /* navbar section styles end */
+
 
 
 

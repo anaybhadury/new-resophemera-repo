@@ -1,7 +1,36 @@
+@media screen and (max-width: 576px) {
+    .navbar-container{
+        max-width: 100%;
+    }
+    .navbar-container i{
+        display: block;
+    }
+    .navbar-container h1{
+        font-size: 1.5rem;
+    }
+    .nav-content ul{
+        display: none;
+    }
+    .navbar-container button{
+        display: none;
+    }
+}
 
 
-
-
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar-container{
+        max-width: 100%;
+    }
+    .navbar-container h1{
+        font-size: 1.2rem;
+    }
+    .navbar-container i{
+        display: none;
+    }
+    .nav-content li a{
+        font-size: 0.8rem;
+    }
+}
 
 
 

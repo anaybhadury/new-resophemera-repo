@@ -9,14 +9,17 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* similar text */
-
+/* similar content */
+.navbar-container,
+.banner-container,
+.tutorial-card-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 
 /* navbar section styles start */
 .navbar-container{
-    max-width: 90%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +58,6 @@
 
 /* banner section styles start */
 .banner-container{
-    max-width: 90%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +110,27 @@
 }
 /* banner section styles end */
 
+/* tutorial card section styles start */
+.tutorial-card-container{
+    margin-bottom: 50px;
+}
+.tutorial-card-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.tutorial-card{
+    text-align: center;
+    background-color: rgb(255, 216, 3);
+    height: 35.4rem;
+}
+.tutorial-card h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
 
+/* tutorial card section styles end */
 
 
 

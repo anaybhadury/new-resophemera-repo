@@ -1,5 +1,7 @@
 @media screen and (max-width: 576px) {
-    .navbar-container{
+    .navbar-container,
+    .banner-container
+    {
         max-width: 100%;
     }
     .navbar-container i{
@@ -8,17 +10,35 @@
     .navbar-container h1{
         font-size: 1.5rem;
     }
-    .nav-content ul{
+    .nav-content ul,
+    .navbar-container button
+    {
         display: none;
     }
-    .navbar-container button{
-        display: none;
+    .banner-container{
+        flex-direction: column;
     }
+    .banner-left-content h1{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .banner-left-content p{
+        width: 100%;
+    }
+    .banner-right-content img{
+        width: 100%;
+    }
+    .btn-mulai{
+        margin-bottom: 10px;
+    }
+
+
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .navbar-container{
+    .navbar-container,
+    .banner-container{
         max-width: 100%;
     }
     .navbar-container h1{
@@ -30,6 +50,17 @@
     .nav-content li a{
         font-size: 0.8rem;
     }
+    .banner-left-content h1{
+        font-size: 2rem;
+        width: 150%;
+    }
+    .banner-left-content p{
+        width: 150%;
+    }
+    .btn-mulai{
+        margin-bottom: 10px;
+    }
+
 }
 
 

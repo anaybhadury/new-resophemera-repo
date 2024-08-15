@@ -15,7 +15,7 @@
 
 /* navbar section styles start */
 .navbar-container{
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,61 @@
 }
 /* navbar section styles end */
 
-
+/* banner section styles start */
+.banner-container{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 216, 3);
+    color: white;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.banner-left-content h1{
+    width: 85%;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.banner-left-content p{
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.btn-mulai{
+    padding: 10px 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 216, 3);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn-mulai:hover{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+.btn-tutorial{
+    padding: 10px 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 216, 3);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-tutorial:hover{
+    background-color: white;
+    color: rgb(255, 216, 3);
+}
+/* banner section styles end */
 
 
 

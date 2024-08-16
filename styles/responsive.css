@@ -4,7 +4,7 @@
     .tutorial-card-container,
     .brands-container,
     .resources-container,
-    .illustration-pack-containerm,
+    .illustration-pack-container,
     .tools-container
     {
         max-width: 100%;
@@ -98,6 +98,15 @@
     }
     /* illustration pack section end */
 
+    /* tools section start */
+    .tools-content{
+        grid-template-columns: 1fr;
+    }
+    .tools-content img{
+        width: 100%;
+    }
+    /* tools section end */
+
 }
 
 
@@ -185,6 +194,15 @@
         width: 100%;
     }
     /* illustration pack section end */
+
+    /* tools section start */
+    .tools-content{
+        grid-template-columns: 1fr;
+    }
+    .tools-content img{
+        width: 100%;
+    }
+    /* tools section end */
 }
 
 

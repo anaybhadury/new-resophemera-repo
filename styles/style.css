@@ -16,7 +16,8 @@
 .brands-container,
 .resources-container,
 .illustration-pack-container,
-.tools-container{
+.tools-container,
+.gabung-container{
     max-width: 90%;
     margin: 0 auto;
 }
@@ -226,7 +227,44 @@
 }
 /* tools section styles end */
 
-
+/* gabung section styles start */
+.gabung-container{
+    background-color: rgb(255, 216, 3);
+    height: 20rem;
+    background-image: url('../assets/Photo.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.gabung-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.gabung-left-content{
+    padding: 50px;
+}
+.gabung-left-content h1{
+    font-size: 2.5rem;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.btn-gabung{
+    padding: 10px 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: rgb(255, 216, 3);
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-gabung:hover{
+    color: white;
+    background-color: rgb(255, 216, 3);
+}
+/* gabung section styles end */
 
 
 

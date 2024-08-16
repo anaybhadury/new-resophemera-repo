@@ -5,7 +5,8 @@
     .brands-container,
     .resources-container,
     .illustration-pack-container,
-    .tools-container
+    .tools-container,
+    .gabung-container
     {
         max-width: 100%;
     }
@@ -117,7 +118,8 @@
     .brand-content,
     .resources-container,
     .illustration-pack-container,
-    .tools-container
+    .tools-container,
+    .gabung-container
     {
         max-width: 100%;
     }

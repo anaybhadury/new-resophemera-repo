@@ -3,7 +3,8 @@
     .banner-container,
     .tutorial-card-container,
     .brands-container,
-    .resources-container
+    .resources-container,
+    .illustration-pack-container
     {
         max-width: 100%;
     }
@@ -87,7 +88,8 @@
     .banner-container,
     .tutorial-card-container,
     .brand-content,
-    .resources-container
+    .resources-container,
+    .illustration-pack-container
     {
         max-width: 100%;
     }

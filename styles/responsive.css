@@ -119,6 +119,15 @@
     }
     /* gabung section end */
 
+    /* footer section start */
+    .footer-container{
+        padding: 20px;
+    }
+    .footer-left-content > div{
+        flex-direction: column;
+    }
+    /* footer section end */
+
 }
 
 
@@ -227,6 +236,12 @@
         width: 100%;
     }
     /* gabung section end */
+
+    /* footer section start */
+    .footer-container{
+        padding: 20px;
+    }
+    /* footer section end */
 }
 
 

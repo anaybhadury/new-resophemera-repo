@@ -4,7 +4,8 @@
     .tutorial-card-container,
     .brands-container,
     .resources-container,
-    .illustration-pack-container
+    .illustration-pack-containerm,
+    .tools-container
     {
         max-width: 100%;
     }
@@ -106,7 +107,8 @@
     .tutorial-card-container,
     .brand-content,
     .resources-container,
-    .illustration-pack-container
+    .illustration-pack-container,
+    .tools-container
     {
         max-width: 100%;
     }

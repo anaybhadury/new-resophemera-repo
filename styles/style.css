@@ -13,7 +13,8 @@
 .navbar-container,
 .banner-container,
 .tutorial-card-container,
-.brands-container{
+.brands-container,
+.resources-container{
     max-width: 90%;
     margin: 0 auto;
 }
@@ -137,14 +138,16 @@
     margin-bottom: 50px;
 }
 .brand-content{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     padding: 20px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 /* brands section styles end */
 
+/* resources section styles start */
 
+/* resources section styles end */
 
 
 

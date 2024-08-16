@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
     .navbar-container,
     .banner-container,
-    .tutorial-card-container
+    .tutorial-card-container,
+    .brands-container
     {
         max-width: 100%;
     }
@@ -18,6 +19,7 @@
         display: none;
     }
     /* navbar section end */
+
     /* banner section start */
     .banner-container{
         flex-direction: column;
@@ -43,13 +45,22 @@
     }
     /* tutorial card section end */
 
+    /* brands section start */
+    .brand-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    /* brands section end */
+
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar-container,
     .banner-container,
-    .tutorial-card-container{
+    .tutorial-card-container,
+    .brand-content
+    {
         max-width: 100%;
     }
     /* navbar section start */
@@ -89,6 +100,12 @@
     }
     /* tutorial card section end */
 
+    /* brands section start */
+    .brand-content{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    /* brands section end */
 }
 
 

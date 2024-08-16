@@ -108,6 +108,16 @@
     }
     /* tools section end */
 
+    /* gabung section start */
+    .gabung-container{
+        margin-top: 500px;
+        height: 25rem;
+    }
+    .gabung-left-content h1{
+        width: 100%;
+    }
+    /* gabung section end */
+
 }
 
 
@@ -205,6 +215,16 @@
         width: 100%;
     }
     /* tools section end */
+
+    /* gabung section start */
+    .gabung-container{
+        margin-top: 810px;
+        height: 25rem;
+    }
+    .gabung-left-content h1{
+        width: 100%;
+    }
+    /* gabung section end */
 }
 
 

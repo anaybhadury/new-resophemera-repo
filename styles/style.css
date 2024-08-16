@@ -146,7 +146,38 @@
 /* brands section styles end */
 
 /* resources section styles start */
-
+.resources-container{
+    border: 2px solid red;
+    padding: 50px 150px;
+}
+.resources-title{
+    font-size: 3rem;
+    width: 500px;
+}
+.resources-description{
+    width: 500px;
+    font-size: 1.2rem;
+    margin-bottom: 70px;
+}
+.resources-row-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.resources-row h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resources-row{
+    margin-bottom: 50px;
+}
+.resources-row h1{
+    width: 414px;
+}
+.resources-row p{
+    width: 414px;
+}
 /* resources section styles end */
 
 

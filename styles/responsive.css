@@ -6,7 +6,8 @@
     .resources-container,
     .illustration-pack-container,
     .tools-container,
-    .gabung-container
+    .gabung-container,
+    .footer-container
     {
         max-width: 100%;
     }
@@ -129,7 +130,8 @@
     .resources-container,
     .illustration-pack-container,
     .tools-container,
-    .gabung-container
+    .gabung-container,
+    .footer-container
     {
         max-width: 100%;
     }

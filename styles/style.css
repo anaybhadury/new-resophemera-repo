@@ -17,7 +17,8 @@
 .resources-container,
 .illustration-pack-container,
 .tools-container,
-.gabung-container{
+.gabung-container,
+.footer-container{
     max-width: 90%;
     margin: 0 auto;
 }
@@ -264,6 +265,34 @@
 }
 /* gabung section styles end */
 
+/* footer section styles start */
+.footer-container{
+    border: 2px solid red;
+    padding: 50px;
+    background-color: rgb(11, 13, 23);
+    color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-left-content > div{
+    display: flex;
+}
+.footer-left-content > div > p{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer-right-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right-content img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* footer section styles end */
 
 
 

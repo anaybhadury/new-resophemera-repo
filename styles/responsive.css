@@ -2,7 +2,8 @@
     .navbar-container,
     .banner-container,
     .tutorial-card-container,
-    .brands-container
+    .brands-container,
+    .resources-container
     {
         max-width: 100%;
     }
@@ -52,6 +53,32 @@
     }
     /* brands section end */
 
+    /* resources section start */
+    .resources-container{
+        padding: 10px;
+    }
+    .resources-title{
+        width: 100%;
+        font-size: 2.2rem;
+    }
+    .resources-description{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .resources-row{
+        margin-bottom: 30px;
+    }
+    .resources-row h1{
+        width: 100%;
+    }
+    .resources-content p{
+        width: 100%;
+    }
+    .resources-row-content{
+        grid-template-columns: 1fr;
+    }
+    /* resources section end */
+
 }
 
 
@@ -59,7 +86,8 @@
     .navbar-container,
     .banner-container,
     .tutorial-card-container,
-    .brand-content
+    .brand-content,
+    .resources-container
     {
         max-width: 100%;
     }
@@ -106,6 +134,27 @@
         gap: 20px;
     }
     /* brands section end */
+
+    /* resources section start */
+    .resources-container{
+        padding: 15px;
+    }
+    .resources-row-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .resources-title{
+        width: 100%;
+    }
+    .resources-description{
+        width: 100%;
+    }
+    .resources-row h1{
+        width: 100%;
+    }
+    .resources-content p{
+        width: 100%;
+    }
+    /* resources section end */
 }
 
 
